@@ -1,0 +1,20 @@
+#ifndef _ENUMERATORSQS_H__
+#define _ENUMERATORSQS_H__
+
+enum class EIOFORMATMODE
+{
+	CONSOLE_CONSOLE = 1, // Align enum with menu options
+	CONSOLE_FILE,
+	FILE_CONSOLE,
+	FILE_FILE
+};
+
+enum EMAINMENUOPTIONS
+{
+	FORMATMODE = 1,
+	SORT,
+	QUIT
+};
+
+
+#endif // !_ENUMERATORSQS_H__

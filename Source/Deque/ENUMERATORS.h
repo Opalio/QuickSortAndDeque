@@ -1,0 +1,23 @@
+#ifndef _ENUMERATORS_H__
+#define _ENUMERATORS_H__
+
+enum EDEQUEOPTIONS
+{
+	ENQUEUE_FRONT = 1, // Align enum with menu options
+	ENQUEUE_BACK,
+
+	DEQUEUE_FRONT,
+	DEQUEUE_BACK,
+
+	PEEK_FRONT,
+	PEEK_BACK,
+
+	IS_EMPTY,
+
+	SIZE,
+
+	EXIT
+};
+
+#endif // !_ENUMERATORS_H__
+

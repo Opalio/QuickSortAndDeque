@@ -1,0 +1,2 @@
+Sorted in Ascending Order:
+1 2 12 23 65 
